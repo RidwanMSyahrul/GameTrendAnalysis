@@ -1,0 +1,20 @@
+1. Url: https://www.kaggle.com/datasets/gregorut/videogamesales
+2. DDL:
+CREATE DATABASE airflow;
+
+CREATE TABLE table_m3(
+	Rank INT,
+	Name VARCHAR(255),
+	Platform VARCHAR(255),
+ 	Year VARCHAR(255),
+ 	Genre VARCHAR(255),
+ 	Publisher VARCHAR(255),
+ 	NA_Sales FLOAT,
+ 	EU_Sales FLOAT,
+ 	JP_Sales FLOAT,
+ 	Other_Sales FLOAT,
+ 	Global_Sales FLOAT
+);
+
+3. DML:
+\copy table_m3 from 'E:\Hacktiv8\Milestone\M3\P2M3_Ridwan_Syahrul_data_raw.csv' delimiter ',' csv header;

@@ -1,0 +1,11 @@
+1. NoSQL atau singkatan dari "Not only SQL" adalah sebuah database non-relasional yang menyimpan data dengan cara selain relasi tabular yang digunakan dalam database SQL. NoSQL bersifat fleksibel dimana bisa digunakan dalam berbagai macam tipe skema, dapat digunakan pada skala besar.
+
+2. NoSQL lebih cocok untuk menangani data tidak terstruktur atau semi-terstruktur dalam jumlah besar dengan persyaratan skalabilitas tinggi dan kinerja yang diutamakan, sedangkan RDBMS lebih dibaik digunakan untuk aplikasi dengan data terstruktur, hubungan kompleks, dan di mana integritas dan konsistensi data diutamakan.
+
+3. Terdapat banyak tools yang dapat dipakai untuk NoSQL, dua diantaranya selain Elasticsearch adalah MongoDB dan Redis. MongoDB memiliki keunggulan bisa lebih baik memproses data JSON yang tidak tersturktur maupun semi-terstruktur, sedangkan Redis biasanya digunakan untuk caching layer dikarenakan kecepatannya yang lebih baik dari tools lain. Redis juga digunakan untuk real-time analysis.
+
+4. Airflow adalah platform open-source yang digunakan untuk membuat, menjadwalkan, dan memantau workflow. Hal ini memungkinkan untuk membuat "tugas" pada Directed Acyclic Graphs (DAGs), di mana setiap tugas mewakili langkah dalam alur kerja program.
+
+5. Great Expectation adalah sebuah library open-source untuk memvalidasi kualitas sebuah data.  Hal ini sangat membantu data engineer, data scientist, dan data analyst untuk memastikan bahwa saluran data dan analitik mereka memberikan hasil yang akurat dan dapat dipercaya.
+
+6. Batch Processing adalah tahap dimana sebuah data diproses secara berkelompok atau biasa disebut dengan batch yang dimana data akan dikumpulkan dan diproses dalam interval waktu tertentu. Contoh kasus dari batch processing adalah tagihan bulanan sebuah kartu kredit, yang dimana data akan dikumpulkan selama 1 bulan dan pada akhir bulan tagihan akan masuk sesuai dengan apa yang telah digunakan oleh user pada waktu interval tersebut. Tools yang digunakan untuk batch processing biasanya adalah Apache Spark.
